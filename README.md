@@ -88,6 +88,30 @@ plt.title('PCA')
 plt.show()
 ```
 **Purpose**: Visualize the data distribution before and after PCA transformation to understand feature separability.
+Creates scatter plots to visualize:
+- The original scaled data
+- The data after PCA transformation
+Both plots are colored by the diagnosis label to show class separation.
+
+## 🧠 Machine Learning Models
+The project implements and compares multiple classification algorithms:
+- Logistic Regression
+- Decision Trees
+- Support Vector Machines (SVM)
+- k-Nearest Neighbors (KNN)
+- Random Forest
+- Gradient Boosting
+- AdaBoost
+- Stacking Classifier
+- Bagging Classifier
+
+## 📊 Model Evaluation
+The project uses various evaluation metrics to assess model performance:
+- Confusion Matrix
+- Accuracy Score
+- Classification Report
+- R² Score
+- Mean Squared Error
 
 ### 🔍 Key Features
 - **Data Preprocessing**: Handling missing values, feature scaling, and encoding
@@ -101,5 +125,4 @@ plt.show()
 - Visualization of feature space before and after PCA
 - Identification of the most effective model for medical diagnosis classification
 - Insights into feature importance and data separability
-
 
